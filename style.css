@@ -8,6 +8,7 @@
     filter: blur(15px);
     transform: translateX(-100%);
     transition: all 3s;
+    transform-style: preserve-3d;
 }
 
 .show{
@@ -15,6 +16,7 @@
     filter: blur(0);
     transform: translateX(0);
     transition: all 3s;
+    transform-style: preserve-3d;
 }
 
 @font-face {
@@ -85,6 +87,7 @@ ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform-style: preserve-3d;
 }
 
 .div1{
@@ -92,6 +95,7 @@ ul li a:hover{
     margin-left: 90px;
     width: 55%;
     height: 650px;
+    transform-style: preserve-3d;
 }
 span{
     color:#bd945f;
@@ -119,22 +123,35 @@ span{
      font-family: 'commons';
 }
 
+/**/
 
 .div2{
-    font-family: 'commons';
     margin-right: 110px;
-    width: 45%;
-    height: 650px;
+    width: 35%;
+    height: 655px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+     border-radius: 60px;
+     background-color: #ede0d6;
+
+     transform-style: preserve-3d;
 }
 
 .img1{
-    margin-top: -30px;
+    margin-top: -32px;
     width: 630px;
     margin-left: 10px;
-     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-     border-radius: 60px;
-     background-color: #ede0d6;
+   transform-style: preserve-3d; 
+    transition: .5s;
+     
 }
+
+.pai.div2:hover{
+    transform: translate3d(0,0,200pxpx);
+}
+
+
+/**/
+
 
 .bt2{
     margin-top: 40px;
