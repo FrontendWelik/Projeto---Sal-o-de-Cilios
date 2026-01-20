@@ -1,163 +1,128 @@
 <!DOCTYPE html>
-<html lang="Pt-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" 
-    integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+    <title>Suellen Carneiro - Estética</title>
 </head>
 <body>
     <header>
-    <nav class="nav">
-        <ul>
-            <li><a href="#">Serviço</a></li>
-            <li><a href="#">Galeria</a></li>
-        </ul>
-        <button class="bt1">Agende agora</button>
-    </nav>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#">Serviço</a></li>
+                <li><a href="#">Galeria</a></li>
+            </ul>
+            <button class="bt1">Agende agora</button>
+        </nav>
     </header>
 
     <main class="pai">
         <div class="div1 hidden">
-            <h3 class="H3">A essencia da Beleza</h3>
+            <h3 class="H3">A essência da Beleza</h3>
             <h1 class="H1">Beleza em <span>estado puro</span></h1>
-            <p class="P1">Mais do que estética, um manifesto de autocuidado.
-                Descubra protocolos exclusivos que unem ciência e 
-                sofisticação
-            </p>
-            <button class="bt2 hidden">Ver tratamentos </button>
-            <button class="bt3 hidden">agende agora</button>
+            <p class="P1">Mais do que estética, um manifesto de autocuidado. Descubra protocolos exclusivos que unem ciência e sofisticação.</p>
+            <div class="main-buttons">
+                <button class="bt2 hidden">Ver tratamentos</button>
+                <button class="bt3 hidden">Agende agora</button>
+            </div>
         </div>
 
-        <div class="div2 hidden">
-            <img class="img1" src="/img/foto-capa.png" alt="">
+        <div class="div2 hidden" data-tilt>
+            <img class="img1" src="img/foto-capa.png" alt="Foto de Capa">
         </div>
-
     </main>
 
     <section class="sec1">
-        <div class="div1">
+        <div class="content-sec1">
             <h1 class="H2">Nossa <span>assinatura visual</span></h1>
-            <p class="P2">Um ambiente projetado para ser o seu refugio particular.Deixe-se
-               envolver por uma experiencia sensorial completa</p>
+            <p class="P2">Um ambiente projetado para ser o seu refúgio particular. Deixe-se envolver por uma experiência sensorial completa.</p>
             
             <div class="card1 hidden">
                 <span class="numero1">01</span>
-                <h1 class="texto">Ambiente Minimalista</h1>
-                <p class="par">cores neutras e iluminação suave para garantir relaxamento profundo</p>
-                
-
+                <div class="card-text">
+                    <h1 class="texto">Ambiente Minimalista</h1>
+                    <p class="par">Cores neutras e iluminação suave para garantir relaxamento profundo.</p>
+                </div>
             </div>
 
             <div class="card1 hidden">
                 <span class="numero1">02</span>
-                <h1 class="texto">Tecnologia Premium</h1>
-                <p class="par">Equipamentos de última geração certificados mundialmente</p>
-
+                <div class="card-text">
+                    <h1 class="texto">Tecnologia Premium</h1>
+                    <p class="par">Equipamentos de última geração certificados mundialmente.</p>
+                </div>
             </div>
         </div>
-
-        <div class="div">
-            <img class="img2" src="img/galeria.png" alt="">
+        <div class="img-container">
+            <img class="img2" src="img/galeria.png" alt="Galeria">
         </div>
-
     </section>
 
     <section class="sec2">
-        <div> <h1 class="Te"><span>Os &ensp;</span>Tratamentos</h1>
-        
-        </div>
-      
+        <h1 class="Te"><span>Os &ensp;</span>Tratamentos</h1>
         <div class="caixas hidden">
             <div class="box1 hidden">
-                <img src="img/estrela.png" class="icon">
+                <img src="img/estrela.png" class="icon" alt="ícone">
                 <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com 
-                   pinça organico e mascara
-                </p>
+                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
                 <a href="#" class="link">Saiba mais</a>
-                
             </div>
-
             <div class="box1 hidden">
-                <img src="img/coracao.png" class="icon">
+                <img src="img/coracao.png" class="icon" alt="ícone">
                 <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com 
-                   pinça organico e mascara
-                </p>
+                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
                 <a href="#" class="link">Saiba mais</a>
             </div>
-
             <div class="box1 hidden">
-                <img src="img/sol.png" class="icon">
+                <img src="img/sol.png" class="icon" alt="ícone">
                 <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com 
-                   pinça organico e mascara
-                </p>
+                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
                 <a href="#" class="link">Saiba mais</a>
             </div>
-
         </div>
     </section>
     
     <footer>
         <div class="foot"> 
-        <div class="conv">
-            <h1 class="texf">Vamos iniciar sua <span>metamorfose?</span></h1>
-            <p class="pf">Entre em contato via  WhatsApp e agende <br> sua consultoria de estetica</p>
-            <button class="btf">Iniciar coversa </button>
-
-        </div>
-
-        <div class="ende">
-            <h3 class="loc">Localização</h3>
-            <p class="rua">Rua fulano,90 <br> jundiai,Sp</p>
-
-            <h3 class="loc2">Horario</h3>
-            <p class="rua">Segunda a sexta - 09H ás 20H <br>Sábados - 09H ás 15H</p>
-
-        </div>
-
-        <div class="soci">
-            <h1 class="Rs">Redes sociais</h1>
-
-            
-            <div class="btsoci"><a href="#">
-                <h1>WhatsApp</h1>
-                <img src="img/whatsapp.png" class="imgsoci">
-            </a>
+            <div class="conv">
+                <h1 class="texf">Vamos iniciar sua <span>metamorfose?</span></h1>
+                <p class="pf">Entre em contato via WhatsApp e agende sua consultoria de estética.</p>
+                <button class="btf">Iniciar conversa</button>
             </div>
 
-            <div class="btsoci"><a href="#">
-                <h1>Instagram</h1>
-                <img src="img/instagram.png" class="imgsoci">
-            </a>
+            <div class="ende">
+                <h3 class="loc">Localização</h3>
+                <p class="rua">Rua Fulano, 90 <br> Jundiaí, SP</p>
+                <h3 class="loc2">Horário</h3>
+                <p class="rua">Segunda a sexta - 09h às 20h <br>Sábados - 09h às 15h</p>
             </div>
 
-        </div>
-
+            <div class="soci">
+                <h1 class="Rs">Redes sociais</h1>
+                <div class="btsoci">
+                    <a href="#">
+                        <h1>WhatsApp</h1>
+                        <img src="img/whatsapp.png" class="imgsoci" alt="Zap">
+                    </a>
+                </div>
+                <div class="btsoci">
+                    <a href="#">
+                        <h1>Instagram</h1>
+                        <img src="img/instagram.png" class="imgsoci" alt="Insta">
+                    </a>
+                </div>
+            </div>
         </div>
         
         <div class="final">
-            
-            <p>Todos os direitos resevados 2026</p>
+            <p>Todos os direitos reservados 2026</p>
             <h1>Suellen Carneiro</h1>
-            <p>site desenvolvido por welik carlos</p>
+            <p>Site desenvolvido por Welik Carlos</p>
         </div>
-
-        
-
     </footer>
-    <div class="finalmobile">
-            <p>Todos os direitos resevados 2026</p>
-            <h1>Suellen Carneiro</h1>
-            <p>site desenvolvido por welik carlos</p>
 
-        </div>
-    
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
-</html>
+</html>s
