@@ -103,7 +103,10 @@ span { color: #bd945f; }
     font-family: 'commons';
     transition: 0.3s;
 }
+.btf{text-decoration: none; color: rgb(3, 3, 3);}
+.bt1 a{text-decoration: none; color: white;}
 .bt2 a{text-decoration: none; color: white;}
+.bt3 a{text-decoration: none; color: rgb(5, 5, 5);}
 .bt2 { background: #000; color: #fff; border: none; }
 .bt3 { background: #fff; border: 1px solid #ddd; }
 .bt2:hover, .bt3:hover { background: #bd945f; color: #fff; }
