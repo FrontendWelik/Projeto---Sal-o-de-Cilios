@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+.finalmobile{
+    display: none;
+}
 .hidden{
     opacity: 0;
     filter: blur(15px);
@@ -132,7 +134,6 @@ span{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
      border-radius: 60px;
      background-color: #ede0d6;
-
      transform-style: preserve-3d;
 }
 
@@ -320,6 +321,7 @@ span{
 }
 
 footer{
+    width: 100%;
     min-height: 750px;
     background-color: #2c2c2c;
 }
@@ -463,4 +465,269 @@ background-color: #2c2c2c;
 .final h1{
     margin-top: 50px;
     color: white;
+}
+
+@media screen and (max-width: 1280px){
+    .div1{
+        margin-left: -30px;
+        margin-top: -50px;
+    }
+    .sec1{
+        margin-top: 130px;
+    }
+    .H3{
+        margin-left: 100px;
+        font-size: 25px;
+    }
+
+    .H1{
+        font-size: 60px;
+    }
+    
+    .P2{
+        margin-left: 100px;
+    }
+    .div2{
+        margin-left: 20px;
+        height: 568px;
+        width: 40%;
+    }
+    .img1{
+        margin-left: -40px;
+        width: 550px;
+    }
+    .bt2{
+        margin-left: 180px;
+
+    }
+    .bt3{
+    margin-left: 180px;
+       margin-top: 20px; 
+    }
+
+    .img2{
+        width: 550px;
+        margin-top: -30px;
+
+    }
+
+    .H2{
+        font-size: 10px;
+        margin-top: 10px;
+        width:100%
+    }
+
+    .texto{
+        font-size: 25px;
+    }
+
+    .conv{
+        margin-left: -160px;
+    }
+
+
+}
+
+@media screen and (max-width: 1480px) and (min-width: 900px){
+
+   .div1{
+        margin-left: -20px;
+        margin-top: -50px;
+    }
+    .sec1{
+        margin-top: 130px;
+    }
+    .H2{
+        font-size: 80px;
+        margin-left: 120px;
+    }
+    .P2{
+        margin-left: 100px;
+    }
+    .img2{
+        
+        width: 550px;
+
+    }
+    .card1{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .caixas{
+        margin-left: -40px;
+    }
+
+
+}
+
+@media screen and (max-width: 790px){
+    .nav{
+        display: none;
+    }
+
+    .pai{
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+}
+    .div1{
+    margin-left: 10px;
+    width: 100%;
+    height: 600px;
+}
+
+.H3{
+    margin-top: 100px;
+    margin-left: 30px;
+    color: #69443c;
+    font-size: 25px;
+    
+}
+.H1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.P1{
+      width: 90%;
+      margin-left: -70px;
+     margin-top: 1px;
+     font-size: 15px;
+     color: #9d9999;
+}
+.bt2{
+    margin-left: 60px;
+}
+
+.bt3{
+ margin-top: 15px;
+ margin-left: 60px;
+}
+
+.div2{
+    margin-top: -12px;
+    margin-left: 40px;
+    width: 83%;
+    height: 405px;
+    box-shadow: 0 10px 20px rgba(2, 2, 2, 0.2);
+    border-radius: 60px;
+    background-color: #e1cdbe;
+    transform-style: preserve-3d;
+}
+
+.img1{
+    
+    margin-top: -35px;
+    width: 400px;
+    margin-left: -40px;
+   transform-style: preserve-3d; 
+    transition: .5s;
+     
+}
+
+.H2{
+    margin-left: 18px;
+    width: 90%;
+    font-size: 32px;
+
+}
+.P2{
+    margin-left: -15px;
+    width: 90%;
+}
+
+.card1{
+    margin-left: 10px;
+    width: 75%;
+    display: flex;
+}
+
+.numero1{
+    margin-top: -25px;
+    margin-left: -15px;
+
+    
+}
+
+.texto{
+    margin-top: -25px;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.par{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: -230px;
+    font-size: 1.2rem;
+
+}
+
+.div > .img2{
+    display: none;
+}
+
+.sec2{
+    width: 100%;
+}
+.Te{margin-top: -130px;
+    font-size: 25px;
+}
+
+.caixas{
+    display: block;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.box1{
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+.foot{
+    display: block;
+}
+
+.conv{
+    margin-top: -130px;
+    margin-left: -250px;
+}
+.texf{
+    padding: 50px;
+    margin-left:230px;
+    
+}
+
+.ende{
+    margin-top: -180px;
+     margin-left: -170px;
+
+}
+.soci{
+    width: 300px;
+    height: -5%;
+    margin-top: -350px;
+    margin-left: 20px;
+    
+}
+.btsoci{
+    margin-left: 20px;
+}
+.final{
+    display: none;
+}
+.finalmobile{
+    color: #9d9999;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    margin-top: -250px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
 }
