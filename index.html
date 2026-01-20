@@ -11,10 +11,10 @@
     <header>
         <nav class="nav">
             <ul class="nav-list">
-                <li><a href="#">Serviço</a></li>
-                <li><a href="#">Galeria</a></li>
+                <li><a href="pagina2.html">Serviço</a></li>
+                <li><a href="https://wa.me/SEUNUMEROAQUI">Contato</a></li>
             </ul>
-            <button class="bt1">Agende agora</button>
+            <button class="bt1" onclick="window.open('https://wa.me/+55 11 91336-7570', '_blank')">Agende agora</button>
         </nav>
     </header>
 
@@ -24,8 +24,8 @@
             <h1 class="H1">Beleza em <span>estado puro</span></h1>
             <p class="P1">Mais do que estética, um manifesto de autocuidado. Descubra protocolos exclusivos que unem ciência e sofisticação.</p>
             <div class="main-buttons">
-                <button class="bt2 hidden">Ver tratamentos</button>
-                <button class="bt3 hidden">Agende agora</button>
+                <button class="bt2 hidden" ><a href="pagina2.html">Ver tratamentos</a></button>
+                <button class="bt3 hidden" onclick="window.open('https://wa.me/+55 11 91336-7570', '_blank')">Agende agora</button>
             </div>
         </div>
 
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="img-container">
-            <img class="img2" src="img/galeria.png" alt="Galeria">
+            <img class="img2" src="img/salao1.png" alt="Galeria">
         </div>
     </section>
 
@@ -66,30 +66,84 @@
             <div class="box1 hidden">
                 <img src="img/estrela.png" class="icon" alt="ícone">
                 <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
-                <a href="#" class="link">Saiba mais</a>
+                <p class="Pc">O procedimento começa com um mapeamento facial utilizando a técnica de visagismo. Utilizamos pinça de precisão e 
+                    finalizamos com um blend de óleos orgânicos para acalmar a pele e estimular o crescimento dos fios.</p>
+                <a href="pagina2.html#sobrancelhas" class="link">Saiba mais</a>
             </div>
             <div class="box1 hidden">
                 <img src="img/coracao.png" class="icon" alt="ícone">
-                <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
-                <a href="#" class="link">Saiba mais</a>
+                <h1 class="tc">Cílios</h1>
+                <p class="Pc">Aplicamos fios de seda ultraleves sobre os cílios naturais, preservando a saúde do folículo. A técnica isola cada fio individualmente para garantir conforto e um acabamento que varia do natural ao volumoso.</p>
+                <a href="pagina2.html#cilios" class="link">Saiba mais</a>
             </div>
             <div class="box1 hidden">
                 <img src="img/sol.png" class="icon" alt="ícone">
-                <h1 class="tc">Sobrancelhas</h1>
-                <p class="Pc">Protocolo de iluminação imediata com pinça orgânica e máscara.</p>
-                <a href="#" class="link">Saiba mais</a>
+                <h1 class="tc">Cuidados</h1>
+                <p class="Pc">Para que sua metamorfose dure mais tempo e seus fios permaneçam saudáveis, pequenos gestos diários fazem toda a diferença.</p>
+                <a href="pagina2.html#guia-cuidados" class="link">Saiba mais</a>
             </div>
         </div>
     </section>
-    
+
+    <section class="sec-salao">
+        <div class="div1 hidden">
+            <h3 class="H3">O ambiente</h3>
+            <h1 class="H2">Nosso <span>Refúgio</span> Particular</h1>
+            <p class="P2">Cada detalhe foi pensado para proporcionar uma imersão em serenidade e luxo minimalista.</p>
+        </div>
+        
+        <div class="grid-salao hidden">
+            <div class="foto-salao item-1"><img src="img/salao1.png" alt="Recepção"></div>
+            <div class="foto-salao item-2"><img src="img/salao2.png" alt="Área de atendimento"></div>
+            <div class="foto-salao item-3"><img src="img/salao3.png" alt="Detalhes decor"></div>
+        </div>
+    </section>
+
+    <section class="sec-trabalhos">
+        <h1 class="Te"><span>Galeria de &ensp;</span>Resultados</h1>
+        
+        <div class="caixas-galeria">
+            <div class="card-trabalho hidden">
+                <div class="img-trabalho">
+                    <img src="img/cilios.png" alt="Microagulhamento">
+                </div>
+                <div class="info-trabalho">
+                    <span class="tag">Estética Facial</span>
+                    <h2 class="tc">Skin Deep Treatment</h2>
+                    <p class="Pc">Revitalização profunda focada na textura e luminosidade da derme.</p>
+                </div>
+            </div>
+
+            <div class="card-trabalho hidden">
+                <div class="img-trabalho">
+                    <img src="img/cilios.png" alt="Design de Sobrancelha">
+                </div>
+                <div class="info-trabalho">
+                    <span class="tag">Design</span>
+                    <h2 class="tc">Arquitetura do Olhar</h2>
+                    <p class="Pc">Design estratégico que respeita a visagismo e naturalidade do rosto.</p>
+                </div>
+            </div>
+
+            <div class="card-trabalho hidden">
+                <div class="img-trabalho">
+                    <img src="img/cilios.png" alt="Labial">
+                </div>
+                <div class="info-trabalho">
+                    <span class="tag">Micropigmentação</span>
+                    <h2 class="tc">Hydra Gloss Lips</h2>
+                    <p class="Pc">Protocolo de hidratação e cor para lábios com aspecto saudável e jovial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="foot"> 
             <div class="conv">
                 <h1 class="texf">Vamos iniciar sua <span>metamorfose?</span></h1>
                 <p class="pf">Entre em contato via WhatsApp e agende sua consultoria de estética.</p>
-                <button class="btf">Iniciar conversa</button>
+                <button class="btf" onclick="window.open('https://wa.me/551191336-7570', '_blank')">Iniciar conversa</button>
             </div>
 
             <div class="ende">
@@ -102,13 +156,13 @@
             <div class="soci">
                 <h1 class="Rs">Redes sociais</h1>
                 <div class="btsoci">
-                    <a href="#">
+                    <a href="https://wa.me/SEUNUMEROAQUI">
                         <h1>WhatsApp</h1>
                         <img src="img/whatsapp.png" class="imgsoci" alt="Zap">
                     </a>
                 </div>
                 <div class="btsoci">
-                    <a href="#">
+                    <a href=" ">
                         <h1>Instagram</h1>
                         <img src="img/instagram.png" class="imgsoci" alt="Insta">
                     </a>
