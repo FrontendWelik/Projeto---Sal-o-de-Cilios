@@ -104,7 +104,6 @@ span { color: #bd945f; }
     font-family: 'commons';
     transition: 0.3s;
 }
-.btf a{text-decoration: none; color: rgb(210, 42, 42);}
 .bt1 a{text-decoration: none; color: white;}
 .bt2 a{text-decoration: none; color: white;}
 .bt3 a{text-decoration: none; color: rgb(5, 5, 5);}
@@ -327,6 +326,12 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
     background-color: #FDFBF9;
 }
 
+.cta-whatsapp1 {
+    padding: 120px 5%;
+    text-align: center;
+    background-color: #FDFBF9;
+}
+
 .whatsapp-box {
     max-width: 800px;
     margin: 0 auto;
@@ -507,6 +512,36 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
     }
 }
 
+#galeria-sobrancelhas {
+    background-color: #FDFBF9; /* Mesmo tom de bege claro usado na seção de cílios */
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* Ajuste da Galeria para 2 colunas no Mobile */
+@media (max-width: 600px) {
+    .caixas-galeria {
+        grid-template-columns: repeat(2, 1fr); /* Força 2 colunas */
+        gap: 15px; /* Reduz o espaçamento para caber melhor */
+        padding: 0 10px;
+    }
+
+    .img-trabalho {
+        height: 180px; /* Reduz a altura da imagem para não ficar muito vertical */
+    }
+
+    .info-trabalho {
+        padding: 15px; /* Reduz o preenchimento interno dos cards */
+    }
+
+    .info-trabalho .tc {
+        font-size: 1.1rem; /* Diminui um pouco o título para não quebrar linha */
+    }
+
+    .tag {
+        font-size: 0.6rem; /* Ajusta a tag para o novo tamanho do card */
+    }
+}
 
 
 
@@ -622,7 +657,7 @@ footer { background: #2c2c2c; color: #fff; padding: 80px 5% 20px; }
 
 /* RESPONSIVIDADE PARA CELULAR */
 @media (max-width: 768px) {
-    .nav-list { display: none; } /* Pode criar um menu hamburguer depois */
+    .nav{ display: none; } /* Pode criar um menu hamburguer depois */
     .pai { text-align: center; }
     .main-buttons { justify-content: center; }
     .img-container { order: -1; } /* Imagem sobe no mobile */
@@ -630,6 +665,7 @@ footer { background: #2c2c2c; color: #fff; padding: 80px 5% 20px; }
     .div2 { border-radius: 30px; }
     .div1{margin-left: -80x;}
     .card1{margin-left: -50px;}
+    .cta-whatsapp1{height: 110px;background-color: white;margin-top: -180px;}
 
 
 
