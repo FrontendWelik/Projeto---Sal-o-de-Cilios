@@ -141,7 +141,7 @@ span { color: #bd945f; }
 
 .img-container { flex: 1; display: flex; justify-content: center; }
 .img2 { width: 100%; max-width: 500px; border-radius: 20px;
-     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
 
 /* SEÇÃO 2 - TRATAMENTOS */
 .sec2 { padding: 80px 5%; background: #FDFBF9; text-align: center; }
