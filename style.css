@@ -502,7 +502,11 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
     .card-cuidado {
         width: 100%;
     }
+    .img2{
+        display: none;
+    }
 }
+
 
 
 
