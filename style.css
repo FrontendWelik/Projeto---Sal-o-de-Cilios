@@ -522,40 +522,85 @@ footer { background: #2c2c2c; color: #fff; padding: 80px 5% 20px; }
 .loc, .loc2 { color: #9d9999; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 10px; }
 .rua { margin-bottom: 30px; }
 
-.btsoci a{
+.btsoci a {
     background-color: #ede8e8;
-    width: 180px;
-    height: 35px;
-    margin: 32px 50px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(243, 240, 240, 0.374); /* Sombra mais forte e espalhada */
+    width: 200px; /* Aumentado levemente para acomodar o ícone */
+    height: 45px;
+    margin: 15px; /* Reduzi o margin top/bottom para ficarem mais próximos */
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaça texto e ícone */
+    padding: 0 20px;
     text-decoration: none;
-    color: black;
-
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
 }
 
-.Rs{
-    margin-left: 50px;
-
-    margin-bottom: 80px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #9d9999;
+/* Hover Chamativo */
+.btsoci a:hover {
+    background-color: #bd945f; /* Sua cor de destaque */
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 15px 30px rgba(189, 148, 95, 0.3);
 }
-.btsoci h1{
-    margin-top: 7px;
-    font-size: 15px;
-    margin-left: 30px;
+
+.btsoci a h1 {
+    margin: 0;
+    font-size: 14px;
     color: #070707;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'commons', sans-serif;
+    transition: color 0.3s;
 }
 
-.imgsoci{
-    width: 25px;
-    height: 25px;
-    margin-top: 4px;
-    margin-left: 25px;
+.btsoci a:hover h1 {
+    color: #fff; /* Texto fica branco no hover */
 }
+
+/* Estilo do Ícone */
+.icon-soci {
+    width: 20px;
+    height: 20px;
+    stroke: #070707; /* Cor do traço do ícone */
+    stroke-width: 1.5px;
+    transition: all 0.3s;
+}
+
+.btsoci a:hover .icon-soci {
+    stroke: #fff; /* Ícone fica branco no hover */
+    transform: rotate(15deg); /* Pequena rotação charmosa */
+}
+
+.ende {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-mapa {
+    width: 150px;
+    font-family: 'commons'; /* Sua fonte padrão */
+    color: #bd945f; /* Sua cor dourada/bege */
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: -20px; /* Ajuste para ficar colado no endereço */
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.link-mapa:hover {
+    color: #000;
+    transform: translateX(5px); /* Leve movimento ao passar o mouse */
+}
+
+
+
+
+
 
 .final {
     border-top: 1px solid #444;

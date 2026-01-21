@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+    <link rel="icon" type="image/png" href="icon/favicon.png">
     <title>Suellen Carneiro - Estética</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li><a href="index.html">Voltar</a></li>
-                <li><a href="https://wa.me/SEUNUMEROAQUI">Contato</a></li>
+                <li><a href="img/whatsapp.webp">Contato</a></li>
             </ul>
             <button class="bt1" ><a href="https://wa.link/9c8jj3">Agende agora</a></button>
         </nav>
@@ -21,7 +21,7 @@
     <section class="detalhe-servico hidden" id="sobrancelhas">
     <div class="servico-container">
         <div class="servico-img">
-            <img src="img/sobrancelha.png" alt="Sobrancelhas">
+            <img src="img/sobrancelha.webp" alt="Sobrancelhas">
         </div>
         <div class="servico-info">
             <span class="tag">Protocolo Exclusivo</span>
@@ -48,7 +48,7 @@
 <section class="detalhe-servico hidden reverse" id="cilios">
     <div class="servico-container">
         <div class="servico-img">
-            <img src="img/cilios.png" alt="Cílios">
+            <img src="img/cilios.webp" alt="Cílios">
         </div>
         <div class="servico-info">
             <span class="tag">Olhar de Impacto</span>
@@ -128,7 +128,7 @@
         <p class="P2">Tire suas dúvidas ou agende seu horário diretamente pelo nosso canal exclusivo de atendimento.</p>
         <a href="https://wa.link/9c8jj3" target="_blank" class="bt-whats-full">
             Falar com especialista agora
-            <img src="img/whatsapp.png" alt="Zap" class="icon">
+            <img src="img/whatsapp.webp" alt="Zap" class="icon">
         </a>
     </div>
 </section>
@@ -143,27 +143,41 @@
             </div>
 
             <div class="ende">
-                <h3 class="loc">Localização</h3>
-                <p class="rua">Rua Fulano, 90 <br> Jundiaí, SP</p>
-                <h3 class="loc2">Horário</h3>
-                <p class="rua">Segunda a sexta - 09h às 20h <br>Sábados - 09h às 15h</p>
-            </div>
+    <h3 class="loc">Localização</h3>
+    <p class="rua">Rua Secundino Veiga, 99 <br>Centro - Jundiaí, SP</p>
+    
+    <a href="https://www.google.com/maps/search/?api=1&query=Rua+Secundino+Veiga+99+Centro+Jundiai" 
+       target="_blank" class="link-mapa">
+       <i data-lucide="map-pin" class="icon-loc"></i>
+       Ver no Google Maps
+    </a>
+
+    <h3 class="loc2">Horário</h3>
+    <p class="rua">Segunda a sexta - 08h às 16h <br>Sábados - 08h às 17h</p>
+</div>
 
             <div class="soci">
-                <h1 class="Rs">Redes sociais</h1>
-                <div class="btsoci">
-                    <a href="https://wa.link/9c8jj3">
-                        <h1>WhatsApp</h1>
-                        <img src="img/whatsapp.png" class="imgsoci" alt="Zap">
-                    </a>
-                </div>
-                <div class="btsoci">
-                    <a href="#">
-                        <h1>Instagram</h1>
-                        <img src="img/instagram.png" class="imgsoci" alt="Insta">
-                    </a>
-                </div>
-            </div>
+    <h1 class="Rs">Redes sociais</h1>
+    
+    <div class="btsoci">
+        <a href="https://wa.link/9c8jj3" class="social-btn">
+            <h1>WhatsApp</h1>
+            <i data-lucide="message-circle" class="icon-soci"></i>
+        </a>
+    </div>
+
+    <div class="btsoci">
+        <a href="https://www.instagram.com/suellencarneiro._?igsh=MWV1YTQ2cGg4dm41NQ==" class="social-btn">
+            <h1>Instagram</h1>
+            <i data-lucide="instagram" class="icon-soci"></i>
+        </a>
+    </div>
+</div>
+
+
+
+
+
         </div>
         
         <div class="final">
@@ -175,4 +189,9 @@
     
 </body>
 <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  lucide.createIcons();
+</script>
 </html>
