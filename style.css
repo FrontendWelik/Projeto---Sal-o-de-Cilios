@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     width: 100%;
+    
 }
 
 /* ANIMAÇÕES INTERSECTION OBSERVER */
@@ -84,7 +85,7 @@ body {
     max-width: 600px;
     background: #ebd4c2; 
     border-radius: 60px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.518), 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.231), 0 5px 15px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: center;
 }
@@ -223,6 +224,7 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.575), 0 5px 15px rgba(0, 0, 0, 0.703);}
     overflow: hidden;
     border: 1px solid #F1E9E1;
     transition: 0.4s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.231), 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .img-trabalho {
